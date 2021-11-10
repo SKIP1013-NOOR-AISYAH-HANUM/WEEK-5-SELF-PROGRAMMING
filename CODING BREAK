@@ -1,0 +1,28 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Break {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner (System.in);
+		
+		char ch = 'b';
+		switch (ch)
+		{
+			case 'a' :
+				System.out.println("ch=a");
+				
+			case 'b' :
+				System.out.println("ch=b");
+			case 'c' :
+				System.out.println("ch=c");
+			default:
+				System.out.println("default");
+		}
+
+	}
+
+}
