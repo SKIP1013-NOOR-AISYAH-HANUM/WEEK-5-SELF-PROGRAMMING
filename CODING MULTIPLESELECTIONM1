@@ -1,0 +1,43 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class MultipleselectionM1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+
+		
+		int mark;
+		char grade;
+		
+		System.out.print("Enter your mark: ");
+		mark = input.nextInt();
+		
+		System.out.println("The mark enter is :"+mark);
+		
+		
+		if (mark>=90)
+		{	
+			grade = 'A';
+		}    
+	    else if (mark>=80)
+	    {	
+	    	
+	    	grade = 'B';
+	    }
+	    else if (mark>=70)
+	    {
+	    	grade = 'C';
+	    
+	    }
+	    else if (mark>=60)
+	    	grade = 'D';
+	    else
+	    	grade = 'F';
+
+	}
+
+}
