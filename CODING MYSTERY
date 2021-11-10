@@ -1,0 +1,45 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Mystery {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner(System.in);
+		
+		int NUM = 10;
+		
+		double X=20.5;
+		
+
+		
+		
+		
+		 int a,b;
+		 double z;
+		 char grade;
+		 a=25;
+		 System.out.println("a= "+a);
+		 System.out.print("Enter the first integers: ");
+		 a = scan.nextInt();
+		 System.out.println();
+		 
+		 System.out.print("Enter the second integers: ");
+		 b = scan.nextInt();
+		 System.out.println();
+		 System.out.println("The numbers you entered are "+a+"and "+b);
+		 z=X +2 * a-b;
+		 
+		 System.out.println("z= "+z);
+		 grade = 'A';
+		 System.out.println("Your grade is "+grade);
+		 a=2*NUM+(int)z;
+		 System.out.println("The value of a "+a);
+		 
+		 
+
+	}
+
+}
