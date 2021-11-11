@@ -1,0 +1,23 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Svalue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		
+		int SENTINEL = 0, num;
+	    System.out.print("Enter a number : ");
+		num = input.nextInt();
+		while (num > SENTINEL) 
+		{
+			System.out.println (num + "/ 3 ="+ num/3);
+			num=num / 3;
+		}
+
+	}
+
+}
