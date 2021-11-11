@@ -1,0 +1,29 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Console {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+        int luck,total=0;
+		
+		System.out.print("Please enter number luck: ");
+		luck = input.nextInt();		
+				
+		while (luck!= 0)
+		{
+			total = total + luck;
+			System.out.print("Please enter number luck: ");
+			luck = input.nextInt();
+		}
+		
+			System.out.print("Total: "+total);
+			
+	
+
+	}
+
+}
